@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_fon_login_without_button"
+    >
+
+
+
+    <TextView
+        android:id="@+id/you_logined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/marg_horiz_35"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marg_horiz_35"
+
+        android:layout_marginBottom="488dp"
+        android:fontFamily="@font/tienne_black"
+        android:padding="16dp"
+        android:text="Вы вошли!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/marg_horiz_35"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marg_horiz_35"
+
+        android:layout_marginBottom="329dp"
+        android:fontFamily="@font/tienne_black"
+        android:padding="16dp"
+        android:text="ID!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_full_name_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/marg_horiz_35"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marg_horiz_35"
+
+        android:layout_marginBottom="412dp"
+        android:fontFamily="@font/tienne_black"
+        android:padding="16dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/marg_horiz_35"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marg_horiz_35"
+
+        android:layout_marginBottom="240dp"
+        android:padding="16dp"
+        android:text="Email!"
+        android:fontFamily="@font/tienne_black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/button_loggout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="283dp"
+        android:background="@drawable/button_bg5"
+        android:fontFamily="@font/tienne_black"
+        android:text="Выход"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/button_bg5"
+        android:text="Next"
+        android:fontFamily="@font/tienne_black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/button_previos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/ic_vector2"
+        android:backgroundTint="@drawable/button_bg_color"
+        android:text="Prev"
+        android:fontFamily="@font/tienne_black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
+
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/border.xml" value="0.526" />
+        <entry key="app/src/main/res/drawable/button_bg4.xml" value="0.5495" />
+        <entry key="app/src/main/res/drawable/button_bg5.xml" value="0.3495" />
+        <entry key="app/src/main/res/drawable/button_bg_color.xml" value="0.3185" />
+        <entry key="app/src/main/res/drawable/button_bg_color2.xml" value="0.5495" />
+        <entry key="app/src/main/res/drawable/button_bg_color3.xml" value="0.5495" />
+        <entry key="app/src/main/res/drawable/button_login.xml" value="0.526" />
+        <entry key="app/src/main/res/drawable/button_reg_data.xml" value="0.517" />
+        <entry key="app/src/main/res/drawable/ic_login.xml" value="0.526" />
+        <entry key="app/src/main/res/drawable/ic_vector_reg_creat_account.xml" value="0.6275" />
+        <entry key="app/src/main/res/font/aclonica.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/font/aclonik.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/font/alconica.xml" value="0.3296875" />
+        <entry key="app/src/main/res/font/alike.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/layout/activity_enter_pape.xml" value="0.37894736842105264" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1651376146788991" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
